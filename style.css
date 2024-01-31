@@ -1,0 +1,85 @@
+.container{
+    display: none;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+
+}
+
+
+@media (max-width:425px){
+    body{
+        background-color:brown;
+    }
+    #container4{
+        display: block;
+    }
+}
+
+
+@media (max-width:768px) and (min-width:425px){
+    body{
+        background-color:aqua;
+    }
+    #container3{
+        display: block;
+    }
+}
+
+
+@media (max-width:1024px) and (min-width:768px){
+    body{
+        background-color:darkgoldenrod;
+    }
+    #container2{
+        display: block;
+    }
+}
+
+
+@media (max-width:1440px) and (min-width:1024px){
+    body{
+        background-color:darkgreen;
+    }
+    #container1{
+        display: block;
+    }
+}
+
+/* 
+@media (max-width:1440px) and (min-width:1px){
+    body{
+        background-color:aquamarine;
+    }
+    #container1{
+        display: block;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
